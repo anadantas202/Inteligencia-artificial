@@ -14,7 +14,7 @@ const perguntas = [
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "Farmacêutico(a) Clínico,"
             }
         ]
     },
@@ -27,7 +27,7 @@ const perguntas = [
             },
             {
                 texto: "Muito mais...",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                afirmacao: "Farmacêutico(a) Hospitalar,"
             }
         ]
     },
@@ -40,7 +40,7 @@ const perguntas = [
             },
             {
                 texto: "Quero compreender melhor sobre o assunto.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                afirmacao: "Farmacêutico(a) Industrial,"
             }
         ]
     },
@@ -53,7 +53,7 @@ const perguntas = [
             },
             {
                 texto: "Como se dá a formação acadêmica nesse campo?",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                afirmacao: "Farmacêutico(a) Industrial,"
             }
         ]
     },
@@ -61,12 +61,12 @@ const perguntas = [
         enunciado: "O curso de Farmácia tem uma estrutura de cinco anos, dividida entre teoria, prática em laboratórios e estágios supervisionados. Durante esse tempo, os estudantes não apenas aprendem a teoria por trás dos medicamentos, mas também ganham experiência prática em farmácias comunitárias, hospitais e indústrias farmacêuticas. ",
         alternativas: [
             {
-                texto: "A Farmácia oferece diversas áreas de especialização, como Farmácia Hospitalar, Farmácia Clínica, Indústria Farmacêutica e Análises Clínicas. Cada uma dessas especialidades abre portas para diferentes carreiras dentro do campo farmacêutico.",
+                texto: "Interessante...",
                 afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Legal, é uma ótima profissão!",
+                afirmacao: "Farmacêutico(a) de Manipulação, Farmacêutico(a) de Análises Clínicas, Pesquisador(a) Acadêmico(a), Consultor(a) em Saúde, Regulador(a) de Medicamentos, Farmacêutico(a) Comunitário(a) e Gestor(a) de Saúde. Essas são algumas das principais áreas em que um farmacêutico pode trabalhar, refletindo a diversidade de oportunidades dentro da profissão."
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Variedade de oportunidades profissionais, como:";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
